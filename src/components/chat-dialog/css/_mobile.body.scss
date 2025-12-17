@@ -1,0 +1,121 @@
+$scroll-bar-width: 8px;
+
+
+#mobile-body {
+    position: absolute;
+    top: $mobile-head-height;
+    bottom: $mobile-foot-height;
+
+    width: 100%;
+
+    background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 50%, #ffd1dc 100%);
+
+    a {
+        color: $clr-primary;
+        text-decoration: none;
+    }
+}
+
+    #mobile-body-bg {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+
+        &:before, &:after {
+            content: '';
+            display: block;
+            z-index: 10;
+        }
+
+        &:before {
+            position: relative;
+            width: 100%;
+            height: 25px;
+            background: linear-gradient(rgba(255, 240, 245, 0.3) 0, transparent);
+        }
+
+        &:after {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 15px;
+            background: linear-gradient(transparent 0, rgba(255, 209, 220, 0.2) 100%);
+        }
+
+        // HelloKitty装饰元素 - 使用实际图片
+        &::before {
+            content: '';
+            position: absolute;
+            top: 20%;
+            right: 10%;
+            width: 60px;
+            height: 60px;
+            background: url('/options/preview/hello.PNG') no-repeat center;
+            background-size: contain;
+            opacity: 0.15;
+            z-index: 1;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 30%;
+            left: 5%;
+            width: 40px;
+            height: 40px;
+            background: url('/options/preview/hello.PNG') no-repeat center;
+            background-size: contain;
+            opacity: 0.1;
+            z-index: 1;
+        }
+    }
+
+    // 添加HelloKitty蝴蝶结装饰 - 淡粉色
+    #mobile-body::before {
+        content: '';
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        width: 30px;
+        height: 30px;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M30,50 Q50,30 70,50 Q50,70 30,50" fill="%23ffb6c1" opacity="0.6"/><circle cx="50" cy="50" r="8" fill="white" opacity="0.8"/></svg>') no-repeat center;
+        background-size: contain;
+        opacity: 0.2;
+        z-index: 1;
+    }
+
+    #mobile-body-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        padding: 16px $distance-h - $scroll-bar-width 16px $distance-h;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+
+        color: $clr-text;
+
+        // fix touch bug
+        z-index: 1;
+
+        &::-webkit-scrollbar {
+            width: $scroll-bar-width;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: $clr-primary-lighter;
+            border-radius: $scroll-bar-width / 2;
+        }
+    }
+
+    #mock-msg-row {
+        position: absolute;
+        top: -1000px;
+        left: 18px;
+        right: 10px;
+        visibility: hidden;
+    }
