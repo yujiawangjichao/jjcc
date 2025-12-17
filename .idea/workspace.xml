@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="891d29c3-ca73-4729-9662-37880d8d17b1" name="变更" comment="初始化">
+      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/index.81352eab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/options/preview/chat.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/options/preview/chat.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/options/preview/letter-yujia.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/options/preview/letter-yujia.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +85,7 @@
       <updated>1707849188212</updated>
       <workItem from="1707849191908" duration="862000" />
       <workItem from="1707852790487" duration="1667000" />
-      <workItem from="1766004799807" duration="1811000" />
+      <workItem from="1766004799807" duration="2721000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <option name="closed" value="true" />
@@ -91,7 +95,39 @@
       <option name="project" value="LOCAL" />
       <updated>1766004904870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化">
+      <option name="closed" value="true" />
+      <created>1766006649912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766006649912</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初始化">
+      <option name="closed" value="true" />
+      <created>1766007104930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766007104930</updated>
+    </task>
+    <task id="LOCAL-00004" summary="初始化">
+      <option name="closed" value="true" />
+      <created>1766007148387</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766007148387</updated>
+    </task>
+    <task id="LOCAL-00005" summary="初始化">
+      <option name="closed" value="true" />
+      <created>1766007251960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766007251960</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

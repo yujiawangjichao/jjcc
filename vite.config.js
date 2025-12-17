@@ -7,7 +7,7 @@ export default ({ mode }) => {
     base: loadEnv(mode, process.cwd()).VITE_BASE_URL,
     plugins: [vue()],
     build: {
-      outDir: 'docs'
+      outDir: 'jjcc'
     }
   })
 }
